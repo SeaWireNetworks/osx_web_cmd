@@ -1,5 +1,3 @@
-# osx_web_cmd
-
 Imagine the unimaginable scenario where a teenager fails to respond to requests to get off their Mac when asked to.
 This application was create for that very scenario.
 
@@ -43,6 +41,7 @@ sudo curl -O https://raw.githubusercontent.com/davecoutts/osx_web_cmd/master/osx
 - Add(+) and tick 'osx_web_cmd_start' (You might find it in  iCloud Drive -> Automator)
 - Restart the Mac and browse to the app home page to make sure it has automatically launched on start-up
 
+###Thats it. Your done. You have regained control
 
 [1]: https://github.com/amoffat/sh
 [2]: https://github.com/bottlepy/bottle

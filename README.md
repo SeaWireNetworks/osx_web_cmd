@@ -40,7 +40,7 @@ sudo curl -O https://raw.githubusercontent.com/davecoutts/osx_web_cmd/master/osx
 - Select "New Document"
 - Select "Application"
 - Under Library->Utilities select "Run shell script"
-- In the command box replace 'cat' with '/usr/bin/python /usr/local/osx_web_cmd/osx_web_cmd.py'
+- In the command box replace 'cat' with 'screen -dm /usr/bin/python /usr/local/osx_web_cmd/osx_web_cmd.py'
 - Test it by selecting the run button and browsing to the app home page
 - Save the automation as 'osx_web_cmd_start'
 - Quit Automator

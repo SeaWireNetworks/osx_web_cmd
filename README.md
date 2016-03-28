@@ -48,7 +48,7 @@ sudo curl -O https://raw.githubusercontent.com/davecoutts/osx_web_cmd/master/osx
 - Add(+) and tick 'osx_web_cmd_start' (You might find it in  iCloud Drive -> Automator)
 - Restart the Mac and browse to the app home page to make sure it has started following the restart
 
-####Thats it. Your done. You have regained control
+####That's it. You're done. You have regained control
 
 [1]: https://github.com/amoffat/sh
 [2]: https://github.com/bottlepy/bottle

@@ -7,7 +7,8 @@ Once installed on the target Mac the app provides the following functions via a 
 - Lock the screen
 - Sleep the screen
 - Sleep the Mac
-- Printouts of a few basic system commands 
+- Printouts of a few basic system commands
+- 
 ![ScreenShot](https://raw.githubusercontent.com/davecoutts/osx_web_cmd/master/osx_web_cmd_screenshot.png)
 
 Once running the app home page can be found on port 8080 of the target Mac.

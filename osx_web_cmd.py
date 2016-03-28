@@ -78,8 +78,3 @@ def _command(cmd=''):
     return template(TEXTPAGE, title=cmd.upper(), text=result)
 
 run(host='0.0.0.0', port=8080, quiet=True)
-
-# sudo mkdir /usr/local/osx_web_cmd
-# cd /usr/local/osx_web_cmd
-# sudo curl -O https://raw.githubusercontent.com/amoffat/sh/master/sh.py
-# sudo curl -O https://raw.githubusercontent.com/bottlepy/bottle/master/bottle.py

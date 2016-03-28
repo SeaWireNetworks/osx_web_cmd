@@ -9,15 +9,17 @@ Once installed on the target Mac the app provides the following functions via a 
 - Sleep the Mac
 - Printouts of a few basic system commands 
 
-Any user on the same network as the Mac will be able to browse to the app web interface.
-The app does not provide any authentication or access restriction functionality. Its meant for use around the home.
+![ScreenShot](https://raw.githubusercontent.com/davecoutts/osx_web_cmd/master/osx_web_cmd_screenshot.png)
 
 Once running the app home page can be found on port 8080 of the target Mac.
 e.g. http://192.168.1.x:8080
 
-![ScreenShot](https://raw.githubusercontent.com/davecoutts/osx_web_cmd/master/osx_web_cmd_screenshot.png)
+Any user on the same network as the Mac will be able to browse to the app web interface.
+The app does not provide any authentication or access restriction functionality. Its meant for use around the home.
 
-##Application and package file installation steps on the target Mac
+The application makes use of two python packages that are simply copied into the same directory as the application. The system python packages are not touched by the installation. The packages are [sh][1], [bottle][2]
+
+###Application and package file installation steps on the target Mac
 
 ```console
 sudo mkdir /usr/local/osx_web_cmd
@@ -27,7 +29,7 @@ sudo curl -O https://raw.githubusercontent.com/bottlepy/bottle/master/bottle.py
 sudo curl -O https://raw.githubusercontent.com/davecoutts/osx_web_cmd/master/osx_web_cmd.py
 ```
 
-##Configure to automatically start when the Mac starts via 'Automator'
+###Configure the application to start automatically when the Mac starts using 'Automator' 
 
 - Start Automator
 - Select "New Document"
@@ -42,4 +44,5 @@ sudo curl -O https://raw.githubusercontent.com/davecoutts/osx_web_cmd/master/osx
 - Restart the Mac and browse to the app home page to make sure it has automatically launched on start-up
 
 
-
+[1]: https://github.com/amoffat/sh
+[2]: https://github.com/bottlepy/bottle

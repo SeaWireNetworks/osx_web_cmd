@@ -8,7 +8,8 @@ Once installed on the target Mac the app provides the following functions via a 
 - Sleep the screen
 - Sleep the Mac
 - Printouts of a few basic system commands
-- 
+
+
 ![ScreenShot](https://raw.githubusercontent.com/davecoutts/osx_web_cmd/master/osx_web_cmd_screenshot.png)
 
 Once running the app home page can be found on port 8080 of the target Mac.
@@ -45,7 +46,7 @@ sudo curl -O https://raw.githubusercontent.com/davecoutts/osx_web_cmd/master/osx
 - Quit Automator
 - Go to System Preferences -> Users & Groups -> Login items
 - Add(+) and tick 'osx_web_cmd_start' (You might find it in  iCloud Drive -> Automator)
-- Restart the Mac and browse to the app home page to make sure it has automatically launched on start-up
+- Restart the Mac and browse to the app home page to make sure it has started following the restart
 
 ####Thats it. Your done. You have regained control
 
